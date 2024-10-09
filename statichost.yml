@@ -1,8 +1,12 @@
 # Docker image to use for building
 image: jekyll/jekyll:3.8
 
-  # Build command
+# Build command
 command: jekyll build
 
-  # Public directory
+# Public directory
 public: _site
+
+  # Hostname
+domains:
+  - static.gumbo.nu
